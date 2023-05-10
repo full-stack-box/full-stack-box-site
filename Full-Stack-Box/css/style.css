@@ -420,6 +420,7 @@ p {
 }
 
 .header-contact ul li img{}
+
 .header-contact ul li span {
 	color: #dee2e6;
 	font-size: 15px;
@@ -438,6 +439,12 @@ p {
 
 .header-logo-support{
     border-bottom: 1px solid #cecece;
+}
+
+.logoclass
+{
+    height: 60px;
+    width: auto;
 }
 
 .support-button{}
@@ -1143,13 +1150,22 @@ p {
     position: relative;
 }
 
+.apply span
+{
+    color: #07294d;
+    text-shadow: 0 0 5px #ffc600;
+}
+
 .apply-color-1{
-    background-color: #07294d;
+    background: rgb(255,198,0);
+    background: linear-gradient(120deg, rgba(255,198,0,1) 0%, rgba(7,41,77,1) 75%);
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 }
+
 .apply-color-2{
-    background-color: #092e56;
+    background: rgb(255,198,0);
+    background: linear-gradient(-1200deg, #ffc600 0%, #07294d 75%);
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
